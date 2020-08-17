@@ -1,0 +1,12 @@
+_format_version: "2.1"
+
+services:
+  - name: transparent-proxy
+    url: http://transparent-proxy
+    routes:
+      - name: transparent-proxy
+        paths:
+          - /
+        strip_path: false
+        plugins:
+          - name: transparent-proxy
