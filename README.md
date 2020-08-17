@@ -1,5 +1,5 @@
 # kong-transparent-proxy
-Kong plugin that acts as a transparent proxy and forward requests according to the `Host` request header.
+Kong plugin that acts as a transparent HTTP proxy and forward requests according to the `Host` request header.
 
 ```dockerfile
 version: '3.8'
