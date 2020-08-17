@@ -1,7 +1,3 @@
-# kong-transparent-proxy
-Kong plugin that acts as a transparent proxy and forward requests according to the `Host` request header.
-
-```dockerfile
 version: '3.8'
 services:
   kong-proxy:
@@ -35,6 +31,3 @@ services:
 networks:
   app:
     driver: bridge
-```
-
-Deploy with Docker and access the proxy at `http://localhost:8080`.
